@@ -57,8 +57,9 @@ button{
 
 }
 img{
-    margin-top: 30px;
-    padding-right: 5px;
+    margin-top: 8px;
+    padding-right: 19px;
+    padding-left: 19px;
 }
 .fila::after{
     content: "";
