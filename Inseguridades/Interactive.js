@@ -26,10 +26,16 @@ function cambiarImagenes1() {
     } 
       }
     boton.parentNode.replaceChild(botonnuevo, boton)
+    var delay = 100;
     for (var i = inicio; i <= fin; i++) {
-      var imagen = document.getElementById("foto" + i);
-      imagen.src = "b.svg";
-      imagen.id = ("foto" + i)
+      (function (i){
+        setTimeout(function (){
+          var imagen = document.getElementById("foto" + i);
+          imagen.src = "b.svg";
+          imagen.id = ("foto" + i)
+        }, delay);
+        delay += 100; 
+      })(i);
     } 
   }
   function cambiarImagenes2() {
@@ -60,10 +66,16 @@ function cambiarImagenes1() {
     } 
       }
     boton.parentNode.replaceChild(botonnuevo, boton)
+    var delay = 100;
     for (var i = inicio; i <= fin; i++) {
-      var imagen = document.getElementById("foto" + i);
-      imagen.src = "c.svg";
-      imagen.id = ("foto" + i)
+      (function (i){
+        setTimeout(function (){
+          var imagen = document.getElementById("foto" + i);
+          imagen.src = "c.svg";
+          imagen.id = ("foto" + i)
+        }, delay);
+        delay += 100;
+      })(i);
     } 
   }
   function cambiarImagenes3() {
@@ -94,10 +106,16 @@ function cambiarImagenes1() {
     } 
       }
     boton.parentNode.replaceChild(botonnuevo, boton)
+    var delay = 100;
     for (var i = inicio; i <= fin; i++) {
-      var imagen = document.getElementById("foto" + i);
-      imagen.src = "d.svg";
-      imagen.id = ("foto" + i)
+      (function (i){
+        setTimeout(function (){
+          var imagen = document.getElementById("foto" + i);
+          imagen.src = "d.svg";
+          imagen.id = ("foto" + i)
+        }, delay);
+        delay += 100;
+      })(i);
     }}
   function cambiarImagenes4() {
     var inicio = 1; 
@@ -147,10 +165,16 @@ function cambiarImagenes1() {
     document.getElementById("b5").onclick = function() {
       window.location.href = "../Zoom/Main.html";
     };
+    var delay = 100;
     for (var i = inicio; i <= fin; i++) {
-        var imagen = document.getElementById("foto" + i);
-        imagen.src = "e.svg";
-        imagen.id = ("foto" + i)
+      (function (i){
+        setTimeout(function (){
+          var imagen = document.getElementById("foto" + i);
+          imagen.src = "e.svg";
+          imagen.id = ("foto" + i)
+        }, delay);
+        delay += 100;
+      })(i);
       }
     boton.parentNode.replaceChild(botonnuevo, boton)
   }   
