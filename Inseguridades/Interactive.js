@@ -7,7 +7,7 @@ function cambiarImagenes1() {
     botonnuevo.id = "b1b"
     botonnuevo.className = "second"
     botonnuevo.style.backgroundColor= "#A34075";
-    botonnuevo.style.color="Black"
+    botonnuevo.style.color="White"
     botonnuevo.onclick = function () {
       var inicio = 1; 
       var fin = 50; 
@@ -17,30 +17,19 @@ function cambiarImagenes1() {
       botonnuevo.innerHTML = "Metro"
       botonnuevo.id = "b1"
       botonnuevo.className = "first"
-      botonnuevo.onclick = function (){
-        cambiarImagenes1();
-      };
+      botonnuevo.onclick = function (){cambiarImagenes1()};
       boton.parentNode.replaceChild(botonnuevo, boton)
-      var ultimaImagen = document.getElementById("foto" + fin).src;
       for (var i = inicio; i <= fin; i++) {
-        var imagen = document.getElementById("foto" + i);
-        if (imagen.src === ultimaImagen) {
-          imagen.src = siguiente.src;
-        }    
-        imagen.id = ("foto" + i)
+      var imagen = document.getElementById("foto" + i);
+      imagen.src = siguiente.src;
+      imagen.id = ("foto" + i)
     } 
       }
     boton.parentNode.replaceChild(botonnuevo, boton)
-    var delay = 100;
     for (var i = inicio; i <= fin; i++) {
-      (function (i){
-        setTimeout(function (){
-          var imagen = document.getElementById("foto" + i);
-          imagen.src = "b.svg";
-          imagen.id = ("foto" + i)
-        }, delay);
-        delay += 100;
-      })(i);
+      var imagen = document.getElementById("foto" + i);
+      imagen.src = "b.svg";
+      imagen.id = ("foto" + i)
     } 
   }
   function cambiarImagenes2() {
@@ -51,7 +40,7 @@ function cambiarImagenes1() {
     botonnuevo.innerHTML = "Parque"
     botonnuevo.id = "b2b"
     botonnuevo.className = "second"
-    botonnuevo.style.backgroundColor= "#68070a";
+    botonnuevo.style.backgroundColor= "#9A55BE";
     botonnuevo.style.color="White"
     botonnuevo.onclick = function () {
       var inicio = 1; 
@@ -64,26 +53,17 @@ function cambiarImagenes1() {
       botonnuevo.className = "first"
       botonnuevo.onclick = function (){cambiarImagenes2()};
       boton.parentNode.replaceChild(botonnuevo, boton)
-      var ultimaImagen = document.getElementById("foto" + fin).src;
       for (var i = inicio; i <= fin; i++) {
-        var imagen = document.getElementById("foto" + i);
-        if (imagen.src === ultimaImagen) {
-          imagen.src = siguiente.src;
-        }    
+      var imagen = document.getElementById("foto" + i);
+      imagen.src = siguiente.src;
       imagen.id = ("foto" + i)
     } 
       }
     boton.parentNode.replaceChild(botonnuevo, boton)
-    var delay = 100;
     for (var i = inicio; i <= fin; i++) {
-      (function (i){
-        setTimeout(function (){
-          var imagen = document.getElementById("foto" + i);
-          imagen.src = "c.svg";
-          imagen.id = ("foto" + i)
-        }, delay);
-        delay += 100;
-      })(i);
+      var imagen = document.getElementById("foto" + i);
+      imagen.src = "c.svg";
+      imagen.id = ("foto" + i)
     } 
   }
   function cambiarImagenes3() {
@@ -94,8 +74,8 @@ function cambiarImagenes1() {
     botonnuevo.innerHTML = "Disco"
     botonnuevo.id = "b3b"
     botonnuevo.className = "second"
-    botonnuevo.style.backgroundColor= "#f91dc7";
-    botonnuevo.style.color="Black"
+    botonnuevo.style.backgroundColor= "#299B31";
+    botonnuevo.style.color="White"
     botonnuevo.onclick = function () {
       var inicio = 1; 
       var fin = 32; 
@@ -114,16 +94,10 @@ function cambiarImagenes1() {
     } 
       }
     boton.parentNode.replaceChild(botonnuevo, boton)
-    var delay = 100;
     for (var i = inicio; i <= fin; i++) {
-      (function (i){
-        setTimeout(function (){
-          var imagen = document.getElementById("foto" + i);
-          imagen.src = "d.svg";
-          imagen.id = ("foto" + i)
-        }, delay);
-        delay += 100;
-      })(i);
+      var imagen = document.getElementById("foto" + i);
+      imagen.src = "d.svg";
+      imagen.id = ("foto" + i)
     }}
   function cambiarImagenes4() {
     var inicio = 1; 
@@ -135,11 +109,11 @@ function cambiarImagenes1() {
     botonnuevo.innerHTML = "Universidad"
     botonnuevo.id = "b4b"
     botonnuevo.className = "second"
-    botonnuevo.style.backgroundColor= "#e5dcd8";
-    botonnuevo.style.color="Black"
+    botonnuevo.style.backgroundColor= "#7785AC";
+    botonnuevo.style.color="White"
     botonnuevo.onclick = function () {
       var inicio = 1; 
-      var fin = 46; 
+      var fin = 48; 
       var boton = document.getElementById("b4b")
       var botonfinal = document.getElementById("b5")
       var botonnuevo = document.createElement("button")
@@ -151,14 +125,13 @@ function cambiarImagenes1() {
       botonnuevo.onclick = function (){cambiarImagenes4()};
       boton.parentNode.replaceChild(botonnuevo, boton)
       for (var i = inicio; i <= fin; i++) {
-        var imagen = document.getElementById("foto" + i);
-        imagen.src = siguiente.src;
-        imagen.id = ("foto" + i)
-      } 
+      var imagen = document.getElementById("foto" + i);
+      imagen.src = siguiente.src;
+      imagen.id = ("foto" + i)}
       while (contento.firstChild) {
         contento.removeChild(contento.firstChild);
-      }}
-    
+      }
+    }
     var nuevoparrafo = document.createElement("p");
     nuevoparrafo.textContent="FLECHITA!!";
     var contento = document.getElementById("ultimo");
@@ -174,16 +147,10 @@ function cambiarImagenes1() {
     document.getElementById("b5").onclick = function() {
       window.location.href = "../Zoom/Main.html";
     };
-    var delay = 100;
     for (var i = inicio; i <= fin; i++) {
-      (function (i){
-        setTimeout(function (){
-          var imagen = document.getElementById("foto" + i);
-          imagen.src = "e.svg";
-          imagen.id = ("foto" + i)
-        }, delay);
-        delay += 100;
-      })(i);
+        var imagen = document.getElementById("foto" + i);
+        imagen.src = "e.svg";
+        imagen.id = ("foto" + i)
       }
     boton.parentNode.replaceChild(botonnuevo, boton)
   }   
