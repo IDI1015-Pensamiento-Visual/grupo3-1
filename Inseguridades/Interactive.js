@@ -6,7 +6,7 @@ function cambiarImagenes1() {
     botonnuevo.innerHTML = "Metro"
     botonnuevo.id = "b1b"
     botonnuevo.className = "second"
-    botonnuevo.style.backgroundColor= "#f38826";
+    botonnuevo.style.backgroundColor= "#A34075";
     botonnuevo.style.color="White"
     botonnuevo.onclick = function () {
       var inicio = 1; 
