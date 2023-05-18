@@ -7,7 +7,7 @@ function cambiarImagenes1() {
     botonnuevo.id = "b1b"
     botonnuevo.className = "second"
     botonnuevo.style.backgroundColor= "#A34075";
-    botonnuevo.style.color="White"
+    botonnuevo.style.color="Black"
     botonnuevo.onclick = function () {
       var inicio = 1; 
       var fin = 50; 
