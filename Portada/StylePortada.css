@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Montserrat";
+}
+
+body {
+	background-color:#b573c577;
+}
+
+.container {
+	max-width: 800px;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 10vh;
+}
+
+.titulo{
+   text-align: center;
+   margin-top: 100px;
+   font-family: "Montserrat";
+   font-size: 50px;
+}
+
+.barra a{
+	position: absolute;
+	bottom: 20%;
+	left: 50%;
+	transform: translate(-50%);
+	color: black;
+    font-family: "Montserrat";
+    font-size: 25px;
+    opacity: 0;
+	animation-name: fadeIn2;
+	animation-duration: 2s;
+	animation-delay: 2s;
+	animation-fill-mode: forwards;
+	animation-timing-function: ease-in-out;
+}
+img {
+	max-width: 40%;
+	height: 300px;
+	opacity: 0;
+	animation-name: fadeIn;
+	animation-duration: 2s;
+	animation-delay: 0.5s;
+	animation-fill-mode: forwards;
+	animation-timing-function: ease-in-out;
+}
+
+@keyframes fadeIn {
+	from {
+		transform: translateY(-80%);
+		opacity: 0;
+	}
+	to {
+		transform: translateY(45%);
+		opacity: 1;
+	}
+}
+@keyframes fadeIn2 {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
