@@ -1,3 +1,18 @@
+var navbar = document.getElementById("navbar");
+var prevScrollPos = window.pageYOffset;
+
+window.onscroll = function() {
+  var currentScrollPos = window.pageYOffset;
+  
+  if (prevScrollPos > currentScrollPos) {
+    navbar.classList.remove("scroll");
+  } else {
+    navbar.classList.add("scroll");
+  }
+  
+  prevScrollPos = currentScrollPos;
+}
+
 function cambiarImagenes1() {
     var inicio = 1; 
     var fin = 50; 
@@ -127,7 +142,7 @@ function cambiarImagenes1() {
     botonnuevo.innerHTML = "Universidad"
     botonnuevo.id = "b4b"
     botonnuevo.className = "second"
-    botonnuevo.style.backgroundColor= "#7785AC";
+    botonnuevo.style.backgroundColor= "#557FF1";
     botonnuevo.style.color="White"
     botonnuevo.onclick = function () {
       var inicio = 1; 
@@ -178,3 +193,55 @@ function cambiarImagenes1() {
       }
     boton.parentNode.replaceChild(botonnuevo, boton)
   }   
+
+ function porcentaje1() {
+  // Crear el nuevo botón
+  var nuevoBoton = document.createElement("button");
+  nuevoBoton.innerHTML = "50%"
+  nuevoBoton.id="boton1";
+  nuevoBoton.className="numero"
+
+  // Agregar el nuevo botón al contenedor
+  var botonExistente = document.getElementById("b1");
+  var contenedor= document.getElementById("todas_inseguridades")
+  contenedor.appendChild(nuevoBoton);
+}
+function porcentaje2() {
+  var boton1 = document.getElementById("boton1");
+  // Crear el nuevo botón
+  var nuevoBoton = document.createElement("button");
+  nuevoBoton.innerHTML = "75%";
+  nuevoBoton.id="boton2"
+  nuevoBoton.className="numero"
+
+  var padreboton= boton1.parentNode
+  // Agregar el nuevo botón al contenedor
+ 
+  padreboton.replaceChild(nuevoBoton, boton1)
+}
+function porcentaje3() {
+  var boton1 = document.getElementById("boton2");
+  // Crear el nuevo botón
+  var nuevoBoton = document.createElement("button");
+  nuevoBoton.innerHTML = "32%";
+  nuevoBoton.id="boton3"
+  nuevoBoton.className="numero"
+
+  var padreboton= boton1.parentNode
+  // Agregar el nuevo botón al contenedor
+ 
+  padreboton.replaceChild(nuevoBoton, boton2)
+}
+function porcentaje4() {
+  var boton1 = document.getElementById("boton3");
+  // Crear el nuevo botón
+  var nuevoBoton = document.createElement("button");
+  nuevoBoton.innerHTML = "48%";
+  nuevoBoton.id="boton4"
+  nuevoBoton.className="numero"
+
+  var padreboton= boton1.parentNode
+  // Agregar el nuevo botón al contenedor
+ 
+  padreboton.replaceChild(nuevoBoton, boton3)
+}

@@ -11,6 +11,54 @@ html{
 #mujeres{
     height: 79vh;
 }
+#linea_nav{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    margin-top: 5px;
+    height: 2px;
+    background-color:white;
+    z-index: -2px;
+    display:inline-block;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#navbar {
+	width: 100%;
+	padding-bottom: 15px;
+	padding-top: 15px;
+  	text-align: center;
+	background-color:rgb(58, 0, 112);
+  }
+  
+  #navbar ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+  }
+  
+  #navbar li {
+	margin-right: 210x;
+	margin-left: 210px;
+  }
+  
+  #navbar a {
+	display: block;
+	padding: 10px 40px;
+	text-decoration: none;
+	color:white;
+	font-weight: bold;
+	border-radius: 5px;
+	transition: background-color 0.3s;
+  }
+  
+  #navbar a:hover {
+    color: blueviolet;
+	background-color: #ccc;
+}
+
 #todas_inseguridades{
     background-color: rgb(58, 0, 112);
     height: 18vh;
@@ -21,8 +69,10 @@ html{
     align-items: center;
 }
 #encabezado{
-    margin-top: -10vh;
+    margin-top: -5vh;
     color: white;
+    position: absolute;
+    left: 30px;
 }
 #linea_encabezado{
     width: 600px;
