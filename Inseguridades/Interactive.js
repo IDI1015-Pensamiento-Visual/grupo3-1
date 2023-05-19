@@ -11,7 +11,8 @@ window.onscroll = function() {
   }
   
   prevScrollPos = currentScrollPos;
-}
+};
+
 
 function cambiarImagenes1() {
     var inicio = 1; 

@@ -26,8 +26,9 @@ html{
 }
 #navbar {
 	width: 100%;
-	padding-bottom: 15px;
-	padding-top: 15px;
+	padding-bottom: 25px;
+	padding-top: 25px;
+	padding-left: 280px;
   	text-align: center;
 	background-color:rgb(58, 0, 112);
   }
@@ -40,13 +41,14 @@ html{
   }
   
   #navbar li {
-	margin-right: 210x;
-	margin-left: 210px;
+	margin-right: 60x;
+	margin-left: 60px;
   }
   
   #navbar a {
 	display: block;
-	padding: 10px 40px;
+
+	padding: 10px 12px;
 	text-decoration: none;
 	color:white;
 	font-weight: bold;
@@ -55,12 +57,23 @@ html{
   }
   
   #navbar a:hover {
-    color: blueviolet;
 	background-color: #ccc;
+	color:blueviolet;
+ }
+   
+a {
+  color: #333;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+a:hover {
+  background-color: #333;
+  color: #fff;
 }
 
 #todas_inseguridades{
-    background-color: rgb(58, 0, 112);
+    background-color: white;
     height: 18vh;
     font-size: 30px;
     display: flex;
@@ -70,7 +83,7 @@ html{
 }
 #encabezado{
     margin-top: -5vh;
-    color: white;
+    color: rgb(58, 0, 112);
     position: absolute;
     left: 30px;
 }
@@ -88,7 +101,7 @@ html{
 }
 button{
     background-color: rgb(212, 176, 245);
-    margin-top: 10px;
+    margin-top: -5vh;
     cursor: pointer;
     border: none;
     margin-left:auto;

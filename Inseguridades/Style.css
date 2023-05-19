@@ -12,7 +12,7 @@ html{
     height: 79vh;
 }
 #todas_inseguridades{
-    background-color: rgb(58, 0, 112);
+    background-color: white;
     height: 18vh;
     font-size: 30px;
     display: flex;
@@ -20,9 +20,12 @@ html{
     justify-content: center;
     align-items: center;
 }
+
+  
+
 #encabezado{
     margin-top: -5vh;
-    color: white;
+    color: rgb(58, 0, 112);
     position: absolute;
     left: 30px;
 }
@@ -42,9 +45,10 @@ html{
     width: 100%;
     position: absolute;
     left: 0;
-    margin-top: 5px;
+    margin-top: -5vh;
+    
     height: 2px;
-    background-color:white;
+    background-color:rgb(58, 0, 112);
     z-index: -2px;
     display:inline-block;
     flex-direction: row;
@@ -52,10 +56,12 @@ html{
     align-items: center;
 }
 
+
 #navbar {
 	width: 100%;
-	padding-bottom: 15px;
-	padding-top: 15px;
+	padding-bottom: 25px;
+	padding-top: 25px;
+	padding-left: 280px;
   	text-align: center;
 	background-color:rgb(58, 0, 112);
   }
@@ -68,13 +74,14 @@ html{
   }
   
   #navbar li {
-	margin-right: 210x;
-	margin-left: 210px;
+	margin-right: 60x;
+	margin-left: 60px;
   }
   
   #navbar a {
 	display: block;
-	padding: 10px 40px;
+
+	padding: 10px 12px;
 	text-decoration: none;
 	color:white;
 	font-weight: bold;
@@ -83,9 +90,20 @@ html{
   }
   
   #navbar a:hover {
-    color: blueviolet;
 	background-color: #ccc;
+	color:blueviolet;
  }
+   
+a {
+  color: #333;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+a:hover {
+  background-color: #333;
+  color: #fff;
+}
 
 .botonera {
     text-align: right;
@@ -112,9 +130,9 @@ button{
 }
 .numero {
     position: absolute;
-    top: 74px;
+    top: 100px;
     right: 150px;
-    color:white;
+    color:rgb(58, 0, 112);
     font-weight: bold;
     background-color: transparent;
     font-size: 50px;
