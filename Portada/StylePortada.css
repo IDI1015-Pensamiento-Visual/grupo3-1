@@ -7,12 +7,18 @@
 }
 
 #navbar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 80px;
+	z-index: 1;
 	width: 100%;
 	padding-bottom: 25px;
 	padding-top: 25px;
 	padding-left: 280px;
   	text-align: center;
-	background-color:rgb(58, 0, 112);
+	background-color:#7778B7;
   }
   
   #navbar ul {
@@ -54,9 +60,33 @@ a:hover {
   color: #fff;
 }
 
-body {
-	background-color:#DE9DFF;
-}
+#titulo {
+	
+	font-size: 60px;
+
+	color:red;
+	margin-left: 550px;
+	margin-top: 80px;
+	
+  }
+  
+  h2 {
+	font-size: 60px;
+	color:white;
+	margin-left: 550px;
+	margin-top: 10px;
+	
+  }
+.contenedor-imagen {
+	position: relative;
+	z-index: 0;
+	background-image: url("imagenPortada.jpg");
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	height: 120vh; /* Ajusta la altura según tus necesidades */
+	margin-top: 80px; /* Ajusta el margen superior para que la imagen comience debajo del navbar */
+  }
 #linea_nav{
     width: 100%;
     position: absolute;
@@ -71,55 +101,12 @@ body {
     justify-content: center;
     align-items: center;
 }
-.container {
-	width: 400px;
-	margin-left: 450px;
-	margin-top: 200px;
-	position:absolute;
-	
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	height: 10vh;
-	top:0px;
-	
-}
 
 
-.titulo{
-	color: black;
-   text-align: center;
-   margin-top: 30px;
-   margin-left: 55px;
-   font-family: "Montserrat";
-   font-size: 50px;
-}
 
-.barra a{
-	position: absolute;
-	bottom: 20%;
-	left: 50%;
-	transform: translate(-50%);
-	color: black;
-    font-family: "Montserrat";
-    font-size: 25px;
-    opacity: 0;
-	animation-name: fadeIn2;
-	animation-duration: 2s;
-	animation-delay: 2s;
-	animation-fill-mode: forwards;
-	animation-timing-function: ease-in-out;
-}
-img {
-	width: 500px;
-	height: 300px;
-	opacity: 0;
-	animation-name: fadeIn;
-	animation-duration: 2s;
-	animation-delay: 0.5s;
-	animation-fill-mode: forwards;
-	animation-timing-function: ease-in-out;
-}
+
+
+
 
 @keyframes fadeIn {
 	from {
