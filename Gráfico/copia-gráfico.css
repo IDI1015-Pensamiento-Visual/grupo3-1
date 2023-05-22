@@ -187,5 +187,23 @@ button:hover {
 .image-transition {
   opacity: 0;
 }
+.row2 {
+  position: relative; /* Añadir posicionamiento relativo al contenedor */
+}
+
+#additional-info-box {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgb(207, 167, 221);
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  display: none;
+  text-align: center;
+  border: 2px solid rgb(255, 255, 255);
+  font-size: 30px;
+  font-family: 'Montserrat', sans-serif;
+}
 
 
