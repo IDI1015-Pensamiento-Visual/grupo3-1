@@ -16,21 +16,21 @@ window.onscroll = function() {
 
 function cambiarImagenes1() {
     var inicio = 1; 
-    var fin = 50; 
+    var fin = 55; 
     var boton = document.getElementById("b1")
     var botonnuevo = document.createElement("button")
-    botonnuevo.innerHTML = "Metro"
+    botonnuevo.innerHTML = "Transporte Público y Terminales"
     botonnuevo.id = "b1b"
     botonnuevo.className = "second"
     botonnuevo.style.backgroundColor= "#A34075";
     botonnuevo.style.color="White"
     botonnuevo.onclick = function () {
       var inicio = 1; 
-      var fin = 50; 
+      var fin = 54; 
       var boton = document.getElementById("b1b")
       var botonnuevo = document.createElement("button")
       var siguiente = document.getElementById("foto51")
-      botonnuevo.innerHTML = "Metro"
+      botonnuevo.innerHTML = "Transporte Público y Terminales"
       botonnuevo.id = "b1"
       botonnuevo.className = "first"
       botonnuevo.onclick = function (){cambiarImagenes1()};
@@ -56,21 +56,21 @@ function cambiarImagenes1() {
   }
   function cambiarImagenes2() {
     var inicio = 1; 
-    var fin = 75; 
+    var fin = 42; 
     var boton = document.getElementById("b2")
     var botonnuevo = document.createElement("button")
-    botonnuevo.innerHTML = "Parque"
+    botonnuevo.innerHTML = "Vía Pública"
     botonnuevo.id = "b2b"
     botonnuevo.className = "second"
     botonnuevo.style.backgroundColor= "#9A55BE";
     botonnuevo.style.color="White"
     botonnuevo.onclick = function () {
       var inicio = 1; 
-      var fin = 75; 
+      var fin = 42; 
       var boton = document.getElementById("b2b")
       var botonnuevo = document.createElement("button")
       var siguiente = document.getElementById("foto76")
-      botonnuevo.innerHTML = "Parque"
+      botonnuevo.innerHTML = "Vía Pública"
       botonnuevo.id = "b2"
       botonnuevo.className = "first"
       botonnuevo.onclick = function (){cambiarImagenes2()};
@@ -96,21 +96,21 @@ function cambiarImagenes1() {
   }
   function cambiarImagenes3() {
     var inicio = 1; 
-    var fin = 32; 
+    var fin = 38; 
     var boton = document.getElementById("b3")
     var botonnuevo = document.createElement("button")
-    botonnuevo.innerHTML = "Disco"
+    botonnuevo.innerHTML = "Plazas y Parques"
     botonnuevo.id = "b3b"
     botonnuevo.className = "second"
     botonnuevo.style.backgroundColor= "#299B31";
     botonnuevo.style.color="White"
     botonnuevo.onclick = function () {
       var inicio = 1; 
-      var fin = 32; 
+      var fin = 38; 
       var boton = document.getElementById("b3b")
       var botonnuevo = document.createElement("button")
       var siguiente = document.getElementById("foto33")
-      botonnuevo.innerHTML = "Disco"
+      botonnuevo.innerHTML = "Plazas y Parques"
       botonnuevo.id = "b3"
       botonnuevo.className = "first"
       botonnuevo.onclick = function (){cambiarImagenes3()};
@@ -135,25 +135,25 @@ function cambiarImagenes1() {
     }}
   function cambiarImagenes4() {
     var inicio = 1; 
-    var fin = 46; 
+    var fin = 43; 
     var botonfinal = document.createElement("button");
     botonfinal.textContent = "ABAJO";
     var boton = document.getElementById("b4")
     var botonnuevo = document.createElement("button")
-    botonnuevo.innerHTML = "Universidad"
+    botonnuevo.innerHTML = "Centro Comercial"
     botonnuevo.id = "b4b"
     botonnuevo.className = "second"
     botonnuevo.style.backgroundColor= "#557FF1";
     botonnuevo.style.color="White"
     botonnuevo.onclick = function () {
       var inicio = 1; 
-      var fin = 48; 
+      var fin = 43; 
       var boton = document.getElementById("b4b")
       var botonfinal = document.getElementById("b5")
       var botonnuevo = document.createElement("button")
       var contento = document.getElementById("ultimo")
       var siguiente = document.getElementById("foto47")
-      botonnuevo.innerHTML = "Universidad"
+      botonnuevo.innerHTML = "Centro Comercial"
       botonnuevo.id = "b4"
       botonnuevo.className = "first"
       botonnuevo.onclick = function (){cambiarImagenes4()};
@@ -198,7 +198,7 @@ function cambiarImagenes1() {
  function porcentaje1() {
   // Crear el nuevo botón
   var nuevoBoton = document.createElement("button");
-  nuevoBoton.innerHTML = "50%"
+  nuevoBoton.innerHTML = "54%"
   nuevoBoton.id="boton1";
   nuevoBoton.className="numero"
 
@@ -211,7 +211,7 @@ function porcentaje2() {
   var boton1 = document.getElementById("boton1");
   // Crear el nuevo botón
   var nuevoBoton = document.createElement("button");
-  nuevoBoton.innerHTML = "75%";
+  nuevoBoton.innerHTML = "42%";
   nuevoBoton.id="boton2"
   nuevoBoton.className="numero"
 
@@ -224,7 +224,7 @@ function porcentaje3() {
   var boton1 = document.getElementById("boton2");
   // Crear el nuevo botón
   var nuevoBoton = document.createElement("button");
-  nuevoBoton.innerHTML = "32%";
+  nuevoBoton.innerHTML = "38%";
   nuevoBoton.id="boton3"
   nuevoBoton.className="numero"
 
@@ -237,7 +237,7 @@ function porcentaje4() {
   var boton1 = document.getElementById("boton3");
   // Crear el nuevo botón
   var nuevoBoton = document.createElement("button");
-  nuevoBoton.innerHTML = "48%";
+  nuevoBoton.innerHTML = "43%";
   nuevoBoton.id="boton4"
   nuevoBoton.className="numero"
 

@@ -59,22 +59,36 @@ a:hover {
   background-color: #333;
   color: #fff;
 }
-
+#invisible{
+	padding-top: 130px;
+}
 #titulo {
+	background-color: white;
 	
 	font-size: 60px;
 
-	color:red;
+	color:#E11B28;
 	margin-left: 550px;
-	margin-top: 80px;
+	margin-top: 0px;
+	margin-right: 300px;
 	
   }
+#titulo2 {
+	background-color: white;
+	font-size: 60px;
+	color:#E11B28;
+	margin-left: 550px;
+	margin-top: 0px;
+	margin-right: 470px;
+
+}
   
   h2 {
 	font-size: 60px;
 	color:white;
 	margin-left: 550px;
 	margin-top: 10px;
+	margin-right: 20px;
 	
   }
 .contenedor-imagen {

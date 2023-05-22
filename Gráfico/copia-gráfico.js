@@ -112,5 +112,51 @@ function changeNumbers(button) { //Se plantea la funcion changeNumbers, guardand
     var infoBox = document.getElementById("info-box");
     infoBox.style.display = "none";
   }
+  function cambiarColor1() {
+    var boton1 = document.getElementById("box1");
+    boton1.style.backgroundColor = "#c879ff";
+    var boton2 = document.getElementById("box2");
+    boton2.style.backgroundColor = "#c879ff";
+    var boton3 = document.getElementById("box3");
+    boton3.style.backgroundColor = "#c879ff";
+    
+  }
+  function cambiarColor2() {
+    var boton1 = document.getElementById("box1");
+    boton1.style.backgroundColor = "#AC00FF";
+    var boton2 = document.getElementById("box2");
+    boton2.style.backgroundColor = "#AC00FF";
+    var boton3 = document.getElementById("box3");
+    boton3.style.backgroundColor = "#AC00FF";
+    
+  }
+  function cambiarColor3() {
+    var boton1 = document.getElementById("box1");
+    boton1.style.backgroundColor = "#5A269C";
+    var boton2 = document.getElementById("box2");
+    boton2.style.backgroundColor = "#5A269C";
+    var boton3 = document.getElementById("box3");
+    boton3.style.backgroundColor = "#5A269C";
+    
+  }
+  function cambiarColor4() {
+    var boton1 = document.getElementById("box1");
+    boton1.style.backgroundColor = "#601271";
+    var boton2 = document.getElementById("box2");
+    boton2.style.backgroundColor = "#601271";
+    var boton3 = document.getElementById("box3");
+    boton3.style.backgroundColor = "#601271";
+    
+  }
+  function cambiarColor5() {
+    var boton1 = document.getElementById("box1");
+    boton1.style.backgroundColor = "#450553";
+    var boton2 = document.getElementById("box2");
+    boton2.style.backgroundColor = "#450553";
+    var boton3 = document.getElementById("box3");
+    boton3.style.backgroundColor = "#450553";
+    
+  }
+
 
   
