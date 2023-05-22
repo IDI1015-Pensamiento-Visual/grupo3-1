@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Linea de tiempo</title>
+  <link rel="stylesheet" type="text/css" href="copia-gráfico.css">
+</head>
+<body> 
+  <nav id="navbar">
+    <ul>
+        <li><a href="../Portada/Portada.html">Inicio</a></li>
+        <li><a href="../Inseguridades/Main.html">Inseguridades</a></li>
+        <li><a href="../Zoom/Main.html">Sentencias</a></li>
+        <li><a href="../Gráfico/copia-gráfico.html">Evolución en el tiempo</a></li>
+    </ul>
+  </nav>
+    
+  
+  <div class="row"> 
+  
+    <h1>Denuncias acumuladas</h1>
+  
+    <h1>Sentencias acumuladas</h1>
+  
+    <h1>Femicidios acumulados</h1>
+    
+  </div>
+
+  <div class="row1"> 
+   
+    <div class="box" id="box1">0</div>
+  
+  
+    <div class="box" id="box2">0</div>
+  
+    <div class="box" id="box3">0</div>
+  
+  </div>
+
+  <div class="row2">
+    
+      <img id="image" src="Entero-17.png" alt="Imagen" usemap="#image-map">
+      <map name="image-map" id="posicion">
+        <area shape="rect" coords="100,60,127,300" onmouseover="showInfo('Información relacionada a esta área.')" onmouseout="hideInfo()" />
+      </map>
+      <div id="info-box">Creacion del Ministerio de la Mujer</div>
+  </div>
+  <div class="row3">
+    
+    
+    <button class="año" onclick="changeNumbers('B'); changeImage('B'); changePosicion('B')">2017</button>
+    <button class="año" onclick="changeNumbers('C'); changeImage('C'); changePosicion('C')">2018</button>
+    <button class="año" onclick="changeNumbers('D'); changeImage('D'); changePosicion('D')">2019</button>
+    <button class="año" onclick="changeNumbers('E'); changeImage('E'); changePosicion('E')">2020</button>
+    <button class="año" onclick="changeNumbers('F'); changeImage('F'); changePosicion('F')">2021</button>    
+  
+  </div>
+
+  <script src="copia-gráfico.js"></script>
+</body>
+</html>
