@@ -29,7 +29,6 @@
    
     <div class="box" id="box1">0</div>
   
-  
     <div class="box" id="box2">0</div>
   
     <div class="box" id="box3">0</div>
@@ -38,23 +37,24 @@
 
   <div class="row2">
     
-      <img id="image" src="Entero-17.png" alt="Imagen" usemap="#image-map">
-      <map name="image-map" id="posicion">
-        <area shape="rect" coords="100,60,127,300" onmouseover="showInfo('Información relacionada a esta área.')" onmouseout="hideInfo()" />
-        <area shape="rect" coords="485,30,650,50" onmouseover="showAdditionalInfo('Texto adicional que se mostrará.')" onmouseout="hideAdditionalInfo()" />
-      </map>
-      <div id="info-box">Creacion del Ministerio de la Mujer</div>
-  </div>
-  <div class="row3">
-    
-    
-    <button class="año" id="2017" onclick="changeNumbers('B'); changeImage('B'); changePosicion('B'); cambiarColor1()">2017</button>
-    <button class="año" id="2018" onclick="changeNumbers('C'); changeImage('C'); changePosicion('C'); cambiarColor2()">2018</button>
-    <button class="año" id="2019" onclick="changeNumbers('D'); changeImage('D'); changePosicion('D'); cambiarColor3()">2019</button>
-    <button class="año" id="2020" onclick="changeNumbers('E'); changeImage('E'); changePosicion('E'); cambiarColor4()">2020</button>
-    <button class="año" id="2021" onclick="changeNumbers('F'); changeImage('F'); changePosicion('F'); cambiarColor5()">2021</button>    
+    <img id="image" src="Entero-17.png" alt="Imagen" usemap="#image-map"> 
+    <map name="image-map" id="posicion">
+      <area shape="rect" coords="100,60,127,300" onmouseover="showInfo('Información relacionada a esta área.')" onmouseout="hideInfo()" />
+      <area shape="rect" coords="485,30,650,50" onmouseover="showAdditionalInfo('Texto adicional que se mostrará.')" onmouseout="hideAdditionalInfo()" />
+    </map>
+    <div id="info-box">Creacion del Ministerio de la Mujer</div>
+    <div id="additional-info-box">Texto adicional</div> 
+</div>
+<div class="row3">
   
-  </div>
+  
+  <button class="año" onclick="changeNumbers('B'); changeImage('B'); changePosicion('B')">2017</button>
+  <button class="año" onclick="changeNumbers('C'); changeImage('C'); changePosicion('C')">2018</button>
+  <button class="año" onclick="changeNumbers('D'); changeImage('D'); changePosicion('D')">2019</button>
+  <button class="año" onclick="changeNumbers('E'); changeImage('E'); changePosicion('E')">2020</button>
+  <button class="año" onclick="changeNumbers('F'); changeImage('F'); changePosicion('F')">2021</button>    
+
+</div>
 
   <script src="copia-gráfico.js"></script>
 </body>
