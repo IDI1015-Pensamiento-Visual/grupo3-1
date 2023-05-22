@@ -113,4 +113,11 @@ function changeNumbers(button) { //Se plantea la funcion changeNumbers, guardand
     infoBox.style.display = "none";
   }
 
+  function showAdditionalInfo(text) {
+    document.getElementById("additional-info-box").style.display = "block";
+    document.getElementById("additional-info-box").textContent = text; // Establecer el texto deseado
+  }
   
+  function hideAdditionalInfo() {
+    document.getElementById("additional-info-box").style.display = "none";
+  }

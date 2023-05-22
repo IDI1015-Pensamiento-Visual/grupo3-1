@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Página web simple</title>
+  <link rel="stylesheet" type="text/css" href="Style.css">
+  <import {LineChart} from "@d3/multi-line-chart"></import>
+</head>
+<body>
+  <nav id="navbar">
+    <ul>
+        <li><a href="../Portada/Portada.html">Inicio</a></li>
+        <li><a href="../Inseguridades/Main.html">Inseguridades</a></li>
+        <li><a href="../Zoom/Main.html">Sentencias</a></li>
+        <li><a href="../Gráfico/Gráfico.html">Evolución en el tiempo</a></li>
+    </ul>
+  </nav>
+  <div class="row">
+    <div class="container">
+      <button onclick="changeNumbers('A')">2016</button>
+      <button onclick="changeNumbers('B')">2017</button>
+      <button onclick="changeNumbers('C')">2018</button>
+      <button onclick="changeNumbers('D')">2019</button>
+      <button onclick="changeNumbers('E')">2020</button>
+      <button onclick="changeNumbers('F')">2021</button>
+      <button onclick="changeNumbers('G')">2022</button>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="container">
+      <h1>Denuncias</h1>
+    </div>
+    <div class="container">
+      <h1>Sentencias</h1>
+    </div>
+    <div class="container">
+      <h1>Multas</h1>
+    </div>
+    <div class="container">
+      <h1>Femicidios</h1>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="container">
+      <div class="box" id="box1">0</div>
+    </div>
+    <div class="container">
+      <div class="box" id="box2">0</div>
+    </div>
+    <div class="container">
+      <div class="box" id="box3">0</div>
+    </div>
+    <div class="container">
+      <div class="box" id="box4">0</div>
+    </div>
+  </div>
+  <div></div>
+  <script src="Interactive.js"></script>
+</body>
+</html>
+
+
+
