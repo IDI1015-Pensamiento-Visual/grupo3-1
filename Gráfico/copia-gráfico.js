@@ -9,19 +9,19 @@ function changeNumbers(button) { //Se plantea la funcion changeNumbers, guardand
   
     var targetNumbers; // Para cada boton se definen los valores que tomaran las denuncias acomuladas, sentencias acomuladas y femicidios acomulados al año correspondiente
     if (button === 'A') { 
-      targetNumbers = [4928, 150, 100];
+      targetNumbers = [0, 0, 0];
     } else if (button === 'B') {
-      targetNumbers = [8823, 160, 120];
+      targetNumbers = [4928, 508, 44];
     } else if (button === 'C') {
-      targetNumbers = [13412, 180, 140];
+      targetNumbers = [8823, 821, 86];
     } else if (button === 'D') {
-      targetNumbers = [19767, 200, 200];
+      targetNumbers = [13412, 1145, 132];
     } else if (button === 'E') {
-      targetNumbers = [25949, 210, 210];
+      targetNumbers = [19767, 1452, 175];
     } else if (button === 'F') {
-      targetNumbers = [2000, 240, 220];
+      targetNumbers = [25949, 1787, 219];
     } 
-  
+  //Valores en algunas situaciones no realizan suma exactamente correcta
     animateNumber(box1, targetNumbers[0]);
     animateNumber(box2, targetNumbers[1]);
     animateNumber(box3, targetNumbers[2]);
@@ -94,9 +94,9 @@ function changeNumbers(button) { //Se plantea la funcion changeNumbers, guardand
     } else if (button === 'D') {
       return "Ley N° 21.212: Modifica la tipificación del Femidicio";
     } else if (button === 'E') {
-      return "Caso de Ambar Cornejo";
+      return "Ley N° 18.216: Ley Gabriela";
     } else if (button === 'F') {
-      return "Caso Antonia Parra";
+      return "Casos Antonia Parra y Ambar Cornejo";
     } else if (button === 'G') {
       return "Información de 2022";
     } else {return "Creacion del Ministerio de la Mujer"}

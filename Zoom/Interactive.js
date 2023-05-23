@@ -113,7 +113,7 @@ function cambiarImagenes1() {
     contento.appendChild(nuevoparrafo);
     contento.appendChild(nuevoBoton);
     document.getElementById("b5").onclick = function() {
-      window.location.href = "../Gráfico/Gráfico.html";
+      window.location.href = "../Gráfico/copia-gráfico.html";
     };
     
     for (var i = inicio; i <= fin; i++) {

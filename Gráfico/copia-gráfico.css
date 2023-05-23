@@ -10,7 +10,7 @@ body {
   position: absolute;
   top: 0px; /* Ajusta la posición vertical */
   left: 0px;
-	width: 100%;
+	width: 1166px;
 	padding-bottom: 25px;
 	padding-top: 25px;
 	padding-left: 22%;
@@ -205,5 +205,19 @@ button:hover {
   font-size: 30px;
   font-family: 'Montserrat', sans-serif;
 }
-
+footer p{
+  color: rgb(58, 0, 112);
+  font-size: 15px;
+  font-style: italic;
+}
+#ultimo{
+  height: 0vh;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+}
+#ante{
+  height: 0vh;
+}
 
