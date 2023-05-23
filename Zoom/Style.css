@@ -28,7 +28,7 @@ html{
 	width: 100%;
 	padding-bottom: 25px;
 	padding-top: 25px;
-	padding-left: 280px;
+	padding-left: 21.8%;
   	text-align: center;
 	background-color:rgb(58, 0, 112);
   }
@@ -74,18 +74,34 @@ a:hover {
 
 #todas_inseguridades{
     background-color: white;
-    height: 18vh;
-    font-size: 30px;
+    height: 6vh;
+    font-size: 15px;
     display: flex;
     flex-direction:column;
     justify-content: center;
     align-items: center;
 }
 #encabezado{
-    margin-top: -5vh;
+    margin-top: 2vh;
     color: rgb(58, 0, 112);
     position: absolute;
-    left: 30px;
+    left: 20px;
+}
+#b1{
+    display: inline;
+    color: rgb(233, 0, 202);
+}
+#b2{
+    display: inline;
+    color: rgb(233, 0, 202);
+}
+#b3{
+    display: inline;
+    color: rgb(233, 0, 202);
+}
+#b4{
+    display: inline;
+    color: rgb(233, 0, 202);
 }
 #linea_encabezado{
     width: 600px;
@@ -119,8 +135,9 @@ button{
 
 }
 img{
-    margin-top: 40px;
-    padding-right: 5px;
+    margin-top: 25px;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 .fila::after{
     content: "";

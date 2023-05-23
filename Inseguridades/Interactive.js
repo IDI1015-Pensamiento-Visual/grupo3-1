@@ -29,7 +29,7 @@ function cambiarImagenes1() {
       var fin = 54; 
       var boton = document.getElementById("b1b")
       var botonnuevo = document.createElement("button")
-      var siguiente = document.getElementById("foto51")
+      var siguiente = document.getElementById("foto100")
       botonnuevo.innerHTML = "Transporte Público y Terminales"
       botonnuevo.id = "b1"
       botonnuevo.className = "first"
@@ -69,7 +69,7 @@ function cambiarImagenes1() {
       var fin = 42; 
       var boton = document.getElementById("b2b")
       var botonnuevo = document.createElement("button")
-      var siguiente = document.getElementById("foto76")
+      var siguiente = document.getElementById("foto100")
       botonnuevo.innerHTML = "Vía Pública"
       botonnuevo.id = "b2"
       botonnuevo.className = "first"
@@ -109,7 +109,7 @@ function cambiarImagenes1() {
       var fin = 38; 
       var boton = document.getElementById("b3b")
       var botonnuevo = document.createElement("button")
-      var siguiente = document.getElementById("foto33")
+      var siguiente = document.getElementById("foto100")
       botonnuevo.innerHTML = "Plazas y Parques"
       botonnuevo.id = "b3"
       botonnuevo.className = "first"
@@ -152,7 +152,7 @@ function cambiarImagenes1() {
       var botonfinal = document.getElementById("b5")
       var botonnuevo = document.createElement("button")
       var contento = document.getElementById("ultimo")
-      var siguiente = document.getElementById("foto47")
+      var siguiente = document.getElementById("foto100")
       botonnuevo.innerHTML = "Centro Comercial"
       botonnuevo.id = "b4"
       botonnuevo.className = "first"
@@ -166,21 +166,6 @@ function cambiarImagenes1() {
         contento.removeChild(contento.firstChild);
       }
     }
-    var nuevoparrafo = document.createElement("p");
-    nuevoparrafo.textContent="FLECHITA!!";
-    var contento = document.getElementById("ultimo");
-    var mujeres = document.getElementById("mujeres");
-    var ante = document.getElementById("ante");
-    mujeres.style.height="60vh";
-    ante.style.height="7vh";
-    contento.style.height="12vh";
-    botonfinal.style.marginTop="10px";
-    botonfinal.id="b5"
-    contento.appendChild(nuevoparrafo);
-    contento.appendChild(botonfinal);
-    document.getElementById("b5").onclick = function() {
-      window.location.href = "../Zoom/Main.html";
-    };
     var delay = 100;
     for (var i = inicio; i <= fin; i++) {
       (function (i){
