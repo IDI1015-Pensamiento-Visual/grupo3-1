@@ -16,7 +16,7 @@ window.onscroll = function() {
 
 function cambiarImagenes1() {
     var inicio = 1; 
-    var fin = 55; 
+    var fin = 54; 
     var boton = document.getElementById("b1")
     var botonnuevo = document.createElement("button")
     botonnuevo.innerHTML = "Transporte Público y Terminales"
