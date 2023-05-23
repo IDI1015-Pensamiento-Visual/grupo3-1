@@ -10,11 +10,11 @@ body {
   position: absolute;
   top: 0px; /* Ajusta la posición vertical */
   left: 0px;
-	width: 1166px;
+	width: 1265px;
 	padding-bottom: 25px;
 	padding-top: 25px;
-	padding-left: 22%;
-  text-align: center;
+	padding-left: 15.4%;
+    text-align: center;
 	background-color:rgb(58, 0, 112);
   }
   

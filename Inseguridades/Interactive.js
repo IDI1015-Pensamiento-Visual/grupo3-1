@@ -13,7 +13,7 @@ window.onscroll = function() {
   prevScrollPos = currentScrollPos;
 };
 
-
+//Las funciones generarimagen lo que harán será conseguir las fotos dentro del rango solicitado para asi "Colorear" estas, haciendo un cambio de el mismo vector por unaa version con un color diferente
 function cambiarImagenes1() {
     var inicio = 1; 
     var fin = 54; 
@@ -24,6 +24,7 @@ function cambiarImagenes1() {
     botonnuevo.className = "second"
     botonnuevo.style.backgroundColor= "#A34075";
     botonnuevo.style.color="White"
+    //Ademas el botonnuevo, hara que al apretar de nuevo el mismo boton genere la inversa de la funcion toriginal entrando en un ciclo de recursividad
     botonnuevo.onclick = function () {
       var inicio = 1; 
       var fin = 54; 
@@ -179,6 +180,7 @@ function cambiarImagenes1() {
       }
     boton.parentNode.replaceChild(botonnuevo, boton)
   }   
+//Las siguientes funciones fueron extraidas mediante el uso de Chat-GPT y modificadas para el correcto uso dentro de la página
 
  function porcentaje1() {
   // Crear el nuevo botón
